@@ -1,0 +1,414 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/launch/launch-page",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+		    }
+		    
+		},
+		{
+            "path" : "pages/tarbar/index/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+				
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/tarbar/server/server",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "物业服务",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tarbar/open/open",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "手机开门",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/tarbar/message/message",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "消息中心",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},	
+		
+        {
+            "path" : "pages/tarbar/me/me",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/loginByPassword",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/contract/contract",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户协议",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/contract/privacy",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "隐私政策",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/enter-code",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "验证码",
+				
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/re-password",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "找回密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的房屋",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/invitor/invitor",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "访客邀请",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/pay/pay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "生活缴费",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+				
+            }
+            
+        }
+        ,{
+            "path" : "pages/park/park",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的车位",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/fix/fix",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "在线报修",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/advice/advice",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/notice/notice",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/phones/phones",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "物业电话",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/family/family",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "家庭成员",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/invitor/myInvitor",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的访客",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+				
+            }
+            
+        }
+        ,{
+            "path" : "pages/setting/setting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tarbar/index/activity",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "社区活动",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tarbar/message/msg-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "公告详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/invitor/openHistory",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "开门记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/owner-add-house",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加房屋",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/user-add-house",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "加入房屋",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/pay/bill-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "账单详情",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#409eff",
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/pay/pay-history",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "缴费记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/pay/pay-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/park/my-car",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的车辆",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/park/add-car",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加车辆",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/park/add-park",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加车位",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/park/bind-car",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "绑定车辆",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/fix/fix-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "报修详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/fix/fix-form",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加报修",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/family/add-family",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "绑定家属/租客",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "智慧生活",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#ffffff"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"color": "#8F8F94",
+		"selectedColor": "#72a1e3",
+		"list": [{
+				"pagePath": "pages/tarbar/index/index",
+				"iconPath": "static/img/tabbar/index/home1.png",
+				"selectedIconPath": "static/img/tabbar/index/home2.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tarbar/server/server",
+				"iconPath": "static/img/tabbar/server/fuwu1.png",
+				"selectedIconPath": "static/img/tabbar/server/fuwu2.png",
+				"text": "服务"
+			},
+			{
+				"pagePath": "pages/tarbar/open/open",
+				"iconPath": "static/img/tabbar/open/yuechi1.png",
+				"selectedIconPath": "static/img/tabbar/open/yuechi2.png",
+				"text": "开门"
+			},
+			{
+				"pagePath": "pages/tarbar/message/message",
+				"iconPath": "static/img/tabbar/message/xiaoxi1.png",
+				"selectedIconPath": "static/img/tabbar/message/xiaoxi2.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/tarbar/me/me",
+				"iconPath": "static/img/tabbar/me/wode1.png",
+				"selectedIconPath": "static/img/tabbar/me/wode2.png",
+				"text": "我的"
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

@@ -1,0 +1,16 @@
+
+.card{
+		
+		width: 97%;
+		margin: 0.3125rem 0.3125rem 0 0.3125rem;
+		margin-top: 0.3125rem;
+		background-color: #ffffff;
+}
+.container{
+		padding-top: 0.3125rem;
+		width: 100%;
+		height: -webkit-fit-content;
+		height: fit-content;
+}
+	
+	
